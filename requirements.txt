@@ -1,0 +1,13 @@
+transformers
+pandas
+numpy
+datasets
+flair==0.10
+s3fs
+sklearn
+torch
+#torchvision
+#torchaudio
+# useful for development
+black
+isort
