@@ -6,21 +6,24 @@
 
 This repository contains the code of the following paper:
 
-    @inproceedings{ziletti-etal-2022,
-    title = " Medical Coding with Biomedical Transformer Ensembles and Zero/Few-shot Learning,",
+    @inproceedings{ziletti-etal-2022-medical,
+    title = "{M}edical Coding with Biomedical Transformer Ensembles and Zero/Few-shot Learning",
     author = "Ziletti, Angelo  and
-      Akbik, Alan  and
-      Berns, Christoph, and
-      Herold, Thomas, and
-      Legler, Marion, and
-      Viell, Martina",
-    booktitle = "",
-    month = ,
+    Akbik, Alan  and
+    Berns, Christoph  and
+    Herold, Thomas  and
+    Legler, Marion  and
+    Viell, Martina",
+    booktitle = "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies: Industry Track",
+    month = jul,
     year = "2022",
-    address = "",
-    publisher = "",
-    url = "https://docs.int.bayer.com/-/holmes-docs/acl_holmes_with_authors.pdf",
-    pages = ""})
+    address = "Hybrid: Seattle, Washington + Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.naacl-industry.21",
+    doi = "10.18653/v1/2022.naacl-industry.21",
+    pages = "176--187",
+    abstract = "Medical coding (MC) is an essential pre-requisite for reliable data retrieval and reporting. Given a free-text \textit{reported term} (RT) such as {``}pain of right thigh to the knee{''}, the task is to identify the matching \textit{lowest-level term} (LLT) {--}in this case {``}unilateral leg pain{''}{--} from a very large and continuously growing repository of standardized medical terms. However, automating this task is challenging due to a large number of LLT codes (as of writing over $80\,000$), limited availability of training data for long tail/emerging classes, and the general high accuracy demands of the medical domain.With this paper, we introduce the MC task, discuss its challenges, and present a novel approach called xTARS that combines traditional BERT-based classification with a recent zero/few-shot learning approach (TARS). We present extensive experiments that show that our combined approach outperforms strong baselines, especially in the few-shot regime. The approach is developed and deployed at Bayer, live since November 2021. As we believe our approach potentially promising beyond MC, and to ensure reproducibility, we release the code to the research community.",
+    }
 
 Within this paper, we present a novel approach called **XTARS** that combines traditional BERTbased classification with a recent zero/few-shot
 learning approach (TARS, by [Halder et al. (2020)](https://kishaloyhalder.github.io/pdfs/tars_coling2020.pdf)).   
