@@ -2,7 +2,7 @@ transformers
 pandas
 numpy
 datasets
-flair==0.10
+flair==0.15.0
 s3fs
 sklearn
 torch
